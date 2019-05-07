@@ -17,6 +17,10 @@
     background-repeat: no-repeat;
     width: 1440px;
     height: 538px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu{
@@ -25,9 +29,28 @@
     align-items: center;
     width: 980px;
     height: 36px;
+    margin-bottom: 50px;
 }
 
 .menu-button{
     margin: 3px auto;
     padding: 10px 30px;
+}
+
+.promo-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container img{
+    width: 360px;
+    padding: 2px;
+}
+
+.image-left img{
+    padding-left: 0; 
+}
+
+.image-right img{
+    padding-right: 0;
 }
