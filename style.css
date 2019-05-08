@@ -54,3 +54,51 @@
 .image-right img{
     padding-right: 0;
 }
+
+
+.footer{
+    margin: 10px 0;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+}
+
+.footer-top-left,
+.footer-top-right,
+.footer-bottom{
+    margin: 5px 0;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #6E6E6E;
+}
+
+.footer-top-left a,
+.footer-top-right a,
+.footer-bottom a{
+   text-decoration: none;
+   color: #08c; 
+}
+
+.links{
+    display: flex;
+}
+
+.border-right{
+    border-right: 1px solid rgb(185, 185, 185);
+    padding: 0 5px;
+}
+
+.link{
+    padding: 0 5px;
+}
+
+.link img{
+    width: 15px;
+}
+
+.left-padding{
+    padding-left: 5px;
+}
