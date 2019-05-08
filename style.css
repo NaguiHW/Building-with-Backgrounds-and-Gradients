@@ -33,8 +33,17 @@
 }
 
 .menu-button{
-    margin: 3px auto;
+    margin: 3px 0;
     padding: 10px 30px;
+    background-image: linear-gradient(rgb(124, 124, 124)50%, rgb(124, 124, 124) 50%, rgb(104, 104, 104)51%, rgb(124, 124, 124)100%);
+    border: 1px solid rgb(151, 151, 151);
+    outline: 1px solid rgb(78, 78, 78);
+    cursor: pointer;
+}
+
+.menu-button:hover{
+    background-image: linear-gradient(90deg, #3c3c3c 0%, #282828 3%, #282828 97%, #3c3c3c 100%);
+    border: 1px solid rgb(78, 78, 78);
 }
 
 /* Text Area */
